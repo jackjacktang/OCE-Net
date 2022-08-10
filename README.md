@@ -5,10 +5,10 @@ Official implementation of OCE-Net for FOD inpainintg
 
 ## Training
 ```
-python3 /home/xinyi/OCE-NET/train.py \
---dataroot /home/data/HCP \
---checkpoints_dir ./checkpoints3 \
---name ocenet_fodnorm_gate5dec5lossse_zscore_f3 \
+python3 /OCE-NET/train.py \
+--dataroot /data/HCP \
+--checkpoints_dir ./checkpoints \
+--name ocenet_fodnorm_zscore_f3 \
 --model lesion_inpaint_5loss \
 --input_nc 45 \
 --output_nc 45 \
@@ -29,10 +29,10 @@ python3 /home/xinyi/OCE-NET/train.py \
 
 ## Inference
 ```
-python3 /home/xinyi/OCE-NET/test.py \
---dataroot /home/data/HCP \
---checkpoints_dir ./checkpoints3 \
---name HCP99_fodnorm_gate5dec5lossse_zscore_f3 \
+python3 /OCE-NET/test.py \
+--dataroot /data/HCP \
+--checkpoints_dir ./checkpoints \
+--name ocenet_fodnorm_zscore_f3 \
 --model lesion_inpaint_5loss \
 --input_nc 45 \
 --output_nc 45 \
