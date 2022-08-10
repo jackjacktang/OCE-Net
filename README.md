@@ -1,7 +1,10 @@
 # OCE-Net
-OCE-Net
 
 Official implementation of OCE-Net for FOD inpainintg
+
+<!-- ![img](docs/teaser.png) -->
+![OCE-Net](./teaser.png)
+
 
 ## Training
 ```
