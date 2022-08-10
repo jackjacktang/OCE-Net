@@ -2,7 +2,7 @@ set -ex
 python3 /home/xinyi/OCE-NET/test.py \
 --dataroot /home/data/HCP \
 --checkpoints_dir ./checkpoints3 \
---name cenet_fodnorm_zscore_f3 \
+--name ocenet_fodnorm_zscore_f3 \
 --model lesion_inpaint_5loss \
 --input_nc 45 \
 --output_nc 45 \
